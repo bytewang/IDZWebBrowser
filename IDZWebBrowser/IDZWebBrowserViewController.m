@@ -100,7 +100,7 @@ static const CGFloat kAddressHeight = 24.0f;
     self.addressField = address;
     
     self.webView.delegate = self;
-    [self loadRequestFromString:@"http://www.baidu.com"];
+    [self loadRequestFromString:@"http://www.baidu.com/"];
 }
 
 - (void)didReceiveMemoryWarning
